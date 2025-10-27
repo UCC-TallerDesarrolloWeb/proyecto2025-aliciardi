@@ -1,0 +1,394 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Cabezal Sparring",
+      "description": "Cabezal de Sparring.",
+      "categoria": "Protectores",
+      "marca": "Gran Marc",
+      "talle": [
+        "1",
+        "2",
+        "3"
+      ],
+      "precio": 35000,
+      "web": "https://www.granmarctiendaonline.com.ar/productos/cabezal-cerrado/",
+      "imagen": "cabezal-cerrado.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Dobok Dan",
+      "description": "Bobok aprobado para torneos internacionales.",
+      "categoria": "Dobok",
+      "marca": "Daedo",
+      "talle": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "precio": 115000.345,
+      "web": "https://www.daedo.com/products/taitf-10813",
+      "imagen": "dobok.webp"
+    },
+    {
+      "id": 3,
+      "nombre": "Escudo de Potencia",
+      "description": "Escudo de potencia para entrenamientos.",
+      "categoria": "Entrenamiento",
+      "marca": "Gran Marc",
+      "talle": [
+        "s/talle"
+      ],
+      "precio": 51700.23,
+      "web": "https://www.granmarctiendaonline.com.ar/productos/escudo-de-potencia-grande/",
+      "imagen": "escudo-potencia.webp"
+    },
+    {
+      "id": 4,
+      "nombre": "Par de focos redondos",
+      "description": "Par de focos de 25cm x 25cm para hacer entrenamiento.",
+      "categoria": "Entrenamiento",
+      "marca": "Gran Marc",
+      "talle": [
+        "s/talle"
+      ],
+      "precio": 15000,
+      "web": "https://www.granmarctiendaonline.com.ar/productos/foco-con-dedos/",
+      "imagen": "foco-con-dedos.webp"
+    },
+    {
+      "id": 5,
+      "nombre": "Guantes 10 onzas",
+      "description": "Guantes de Sparring de 10 onzas habilitados para torneos internacionales",
+      "categoria": "Protectores",
+      "marca": "Daedo",
+      "talle": [
+        "s/talle"
+      ],
+      "precio": 35000.5,
+      "web": "https://www.daedo.com/products/pritf-2020",
+      "imagen": "protectores-manos.webp"
+    },
+    {
+      "id": 6,
+      "nombre": "Protectores Pie",
+      "description": "Protectores de Pie habilitados para torneos internacionales",
+      "categoria": "Protectores",
+      "marca": "Daedo",
+      "talle": [
+        "XXS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "precio": 35000,
+      "web": "https://www.daedo.com/collections/collection-itf-gloves/products/pritf-2022",
+      "imagen": "protectores-pie.webp"
+    }
+  ],
+  "cart": [
+    {
+      "id": "e21a",
+      "productId": "1",
+      "nombre": "Cabezal Sparring",
+      "unitPrice": 35000,
+      "qty": 1,
+      "imagen": "cabezal-cerrado.webp"
+    },
+    {
+      "id": "2913",
+      "productId": "2",
+      "nombre": "Dobok Dan",
+      "unitPrice": 115000.345,
+      "qty": 1,
+      "imagen": "dobok.webp"
+    },
+    {
+      "id": "70c9",
+      "productId": "3",
+      "nombre": "Escudo de Potencia",
+      "unitPrice": 51700.23,
+      "qty": 1,
+      "imagen": "escudo-potencia.webp"
+    },
+    {
+      "id": "96fe",
+      "productId": "4",
+      "nombre": "Par de focos redondos",
+      "unitPrice": 15000,
+      "qty": 1,
+      "imagen": "foco-con-dedos.webp"
+    },
+    {
+      "id": "0be6",
+      "productId": "6",
+      "nombre": "Protectores Pie",
+      "unitPrice": 35000,
+      "qty": 1,
+      "imagen": "protectores-pie.webp"
+    },
+    {
+      "id": "5ec0",
+      "productId": "5",
+      "nombre": "Guantes 10 onzas",
+      "unitPrice": 35000.5,
+      "qty": 1,
+      "imagen": "protectores-manos.webp"
+    },
+    {
+      "id": "3206",
+      "productId": 1,
+      "nombre": "Cabezal Sparring",
+      "unitPrice": 35000,
+      "qty": 1,
+      "imagen": "cabezal-cerrado.webp"
+    },
+    {
+      "id": "d24a",
+      "productId": 2,
+      "nombre": "Dobok Dan",
+      "unitPrice": 115000.345,
+      "qty": 1,
+      "imagen": "dobok.webp"
+    },
+    {
+      "id": "77b7",
+      "productId": 3,
+      "nombre": "Escudo de Potencia",
+      "unitPrice": 51700.23,
+      "qty": 1,
+      "imagen": "escudo-potencia.webp"
+    },
+    {
+      "id": "cfce",
+      "productId": 4,
+      "nombre": "Par de focos redondos",
+      "unitPrice": 15000,
+      "qty": 1,
+      "imagen": "foco-con-dedos.webp"
+    },
+    {
+      "id": "9543",
+      "productId": 5,
+      "nombre": "Guantes 10 onzas",
+      "unitPrice": 35000.5,
+      "qty": 1,
+      "imagen": "protectores-manos.webp"
+    },
+    {
+      "id": "30e8",
+      "productId": 6,
+      "nombre": "Protectores Pie",
+      "unitPrice": 35000,
+      "qty": 1,
+      "imagen": "protectores-pie.webp"
+    },
+    {
+      "id": "08b5",
+      "productId": 1,
+      "nombre": "Cabezal Sparring",
+      "unitPrice": 35000,
+      "qty": 1,
+      "imagen": "cabezal-cerrado.webp"
+    },
+    {
+      "id": "dc6d",
+      "productId": 3,
+      "nombre": "Escudo de Potencia",
+      "unitPrice": 51700.23,
+      "qty": 1,
+      "imagen": "escudo-potencia.webp"
+    },
+    {
+      "id": "21f8",
+      "productId": 4,
+      "nombre": "Par de focos redondos",
+      "unitPrice": 15000,
+      "qty": 1,
+      "imagen": "foco-con-dedos.webp"
+    },
+    {
+      "id": "9368",
+      "productId": 2,
+      "nombre": "Dobok Dan",
+      "unitPrice": 115000.345,
+      "qty": 1,
+      "imagen": "dobok.webp"
+    },
+    {
+      "id": "ba21",
+      "productId": 5,
+      "nombre": "Guantes 10 onzas",
+      "unitPrice": 35000.5,
+      "qty": 1,
+      "imagen": "protectores-manos.webp"
+    },
+    {
+      "id": "2240",
+      "productId": 6,
+      "nombre": "Protectores Pie",
+      "unitPrice": 35000,
+      "qty": 1,
+      "imagen": "protectores-pie.webp"
+    },
+    {
+      "id": "4d80",
+      "productId": 1,
+      "nombre": "Cabezal Sparring",
+      "unitPrice": 35000,
+      "qty": 1,
+      "imagen": "cabezal-cerrado.webp"
+    },
+    {
+      "id": "fb4a",
+      "productId": 3,
+      "nombre": "Escudo de Potencia",
+      "unitPrice": 51700.23,
+      "qty": 1,
+      "imagen": "escudo-potencia.webp"
+    },
+    {
+      "id": "ffdd",
+      "productId": 2,
+      "nombre": "Dobok Dan",
+      "unitPrice": 115000.345,
+      "qty": 1,
+      "imagen": "dobok.webp"
+    },
+    {
+      "id": "4d5c",
+      "productId": 4,
+      "nombre": "Par de focos redondos",
+      "unitPrice": 15000,
+      "qty": 1,
+      "imagen": "foco-con-dedos.webp"
+    },
+    {
+      "id": "bacd",
+      "productId": 5,
+      "nombre": "Guantes 10 onzas",
+      "unitPrice": 35000.5,
+      "qty": 1,
+      "imagen": "protectores-manos.webp"
+    },
+    {
+      "id": "463e",
+      "productId": 6,
+      "nombre": "Protectores Pie",
+      "unitPrice": 35000,
+      "qty": 1,
+      "imagen": "protectores-pie.webp"
+    },
+    {
+      "id": "2fe3",
+      "productId": 1,
+      "nombre": "Cabezal Sparring",
+      "unitPrice": 35000,
+      "qty": 1,
+      "imagen": "cabezal-cerrado.webp"
+    },
+    {
+      "id": "b715",
+      "productId": 2,
+      "nombre": "Dobok Dan",
+      "unitPrice": 115000.345,
+      "qty": 1,
+      "imagen": "dobok.webp"
+    },
+    {
+      "id": "f55a",
+      "productId": 3,
+      "nombre": "Escudo de Potencia",
+      "unitPrice": 51700.23,
+      "qty": 1,
+      "imagen": "escudo-potencia.webp"
+    },
+    {
+      "id": "f0b1",
+      "productId": 4,
+      "nombre": "Par de focos redondos",
+      "unitPrice": 15000,
+      "qty": 1,
+      "imagen": "foco-con-dedos.webp"
+    },
+    {
+      "id": "7f2a",
+      "productId": 5,
+      "nombre": "Guantes 10 onzas",
+      "unitPrice": 35000.5,
+      "qty": 1,
+      "imagen": "protectores-manos.webp"
+    },
+    {
+      "id": "1f10",
+      "productId": 6,
+      "nombre": "Protectores Pie",
+      "unitPrice": 35000,
+      "qty": 1,
+      "imagen": "protectores-pie.webp"
+    },
+    {
+      "id": "0d37",
+      "productId": 1,
+      "nombre": "Cabezal Sparring",
+      "unitPrice": 35000,
+      "qty": 1,
+      "imagen": "cabezal-cerrado.webp"
+    },
+    {
+      "id": "2212",
+      "productId": 2,
+      "nombre": "Dobok Dan",
+      "unitPrice": 115000.345,
+      "qty": 1,
+      "imagen": "dobok.webp"
+    },
+    {
+      "id": "0e45",
+      "productId": 4,
+      "nombre": "Par de focos redondos",
+      "unitPrice": 15000,
+      "qty": 1,
+      "imagen": "foco-con-dedos.webp"
+    },
+    {
+      "id": "d991",
+      "productId": 5,
+      "nombre": "Guantes 10 onzas",
+      "unitPrice": 35000.5,
+      "qty": 1,
+      "imagen": "protectores-manos.webp"
+    },
+    {
+      "id": "3540",
+      "productId": 3,
+      "nombre": "Escudo de Potencia",
+      "unitPrice": 51700.23,
+      "qty": 1,
+      "imagen": "escudo-potencia.webp"
+    },
+    {
+      "id": "10e6",
+      "productId": 6,
+      "nombre": "Protectores Pie",
+      "unitPrice": 35000,
+      "qty": 1,
+      "imagen": "protectores-pie.webp"
+    },
+    {
+      "id": "0a42",
+      "productId": 1,
+      "nombre": "Cabezal Sparring",
+      "unitPrice": 35000,
+      "qty": 1,
+      "imagen": "cabezal-cerrado.webp"
+    }
+  ]
+}

@@ -37,6 +37,7 @@ const Store = () => {
 
     return (
         <>
+            <h2>Catálogo de Productos</h2>
             <section className="catalogo">
             {products.map((prod, id) => (
                 <div key={id} className="card-prod">

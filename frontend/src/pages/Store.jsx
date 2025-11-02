@@ -2,17 +2,15 @@ import { useEffect, useState } from "react";
 import { formatPrice } from "@utils/format";
 import "@styles/Store.scss";
 import { addToCart } from "@api/cartApi";
+import { getProducts } from "../api/productApi";
 
 const Store = () => {
     const [products, setProducts] = useState([]);
     const [selected, setSelected] = useState(null);
 
-    const BASE_URL = "http://localhost:4000/productos";
-
     const fetchProducts = async () => {
         try{
-            const response = await fetch(BASE_URL);
-            const data = await response.json();
+            const data = await getProducts();
             setProducts(data);
         }catch(error){
             console.error(`Error al realizar un get en el servicio: ${error}`);

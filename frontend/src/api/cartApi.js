@@ -25,3 +25,21 @@ export async function getCart() {
   if (!res.ok) throw Error("Error al obtener el carrito");
   return res.json();
 }
+
+export async function removeFromCart(cartItemId) {
+  const res = await fetch(`${BASE_URL}/${cartItemId}`, {
+    method: "DELETE",
+  });
+  if (!res.ok) throw new Error("Error al eliminar del carrito");
+  return true;
+}
+
+export async function updateQty(cartItemId, qty) {
+  const res = await fetch(`${BASE_URL}/${cartItemId}`, {
+    method: "PATCH",
+    headers: { "Content-type": "application/json" },
+    body: JSON.stringify({ qty }),
+  });
+  if (!res.ok) throw new Error("Error al modificar el carrito");
+  return true;
+}

@@ -53,7 +53,7 @@ const Store = () => {
             {selected && (<div className="modalProd">
                 <h2>Detalle del Producto</h2>
                 <p>{selected.nombre}</p>
-                <p>{selected.precio}</p>
+                <p>{formatPrice(selected.precio)}</p>
                 <button onClick={cerrarModal}>Cerrar</button>
             </div>)}
         </>

@@ -94,5 +94,13 @@
     }
   ],
   "cart": [
+    {
+      "id": "c29f",
+      "productId": "3",
+      "nombre": "Escudo de Potencia",
+      "unitPrice": 51700.23,
+      "qty": 1,
+      "imagen": "escudo-potencia.webp"
+    }
   ]
 }

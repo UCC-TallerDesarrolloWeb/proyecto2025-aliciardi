@@ -15,6 +15,11 @@
   }
 }
 
+.grilla{
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
 .modalProd{
     z-index: 10;
     border: 1px solid black;

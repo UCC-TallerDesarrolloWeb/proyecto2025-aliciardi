@@ -54,6 +54,9 @@ const Cart = () => {
         fetchCart();
     },[])
 
+    let total = 0;
+    cartList.forEach((prod) => total += prod.unitPrice * prod.qty);
+
     return (
         <>
         <h2>Carrito</h2>
@@ -77,6 +80,7 @@ const Cart = () => {
                 </p>
             </div>
         ))}
+        <p>TOTAL {formatPrice(total)}</p>
         </>
     )
 }
